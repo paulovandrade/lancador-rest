@@ -40,7 +40,7 @@ public class Usuario implements Serializable{
     @Column(name = "ativo")
     private Character ativo = new Character('S');
 
-    @Temporal(value = TemporalType.DATE)
+    @Temporal(value = TemporalType.TIMESTAMP)
     @Column(name = "ultimoacesso")
     private Date ultimoAcesso;
 
